@@ -16,7 +16,7 @@ function eventoFinal() {
 
   function atualizarContador() {
     const agora = new Date();
-    const destino = new Date(2025, 4, 8, 23, 42, 0); // mês 4 = Maio (0-indexado)
+    const destino = new Date(2025, 4, 9, 0, 6, 0); // mês 4 = Maio (0-indexado)
 
     const diferenca = destino.getTime() - agora.getTime();
 
